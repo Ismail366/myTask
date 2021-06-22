@@ -12,7 +12,7 @@ function sum_array($numbers){
             $sum = $sum + $number;
         }
     }
-    return $sum
+    return $sum;
 }
 
 
