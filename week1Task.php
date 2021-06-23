@@ -1,5 +1,6 @@
 <?php
-function Range($start, $end){
+/*range function*/
+function frange($start, $end){
     $num_array = range($start,$end);
 print_r($num_array);
 
@@ -14,7 +15,7 @@ function sum_array($numbers){
     }
     return $sum;
 }
-range(1,2,3,4);
+frange(1,2,3,4);
 echo "<br>";
 echo sum_array(1,2,3,4);
 
