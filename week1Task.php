@@ -2,8 +2,9 @@
 /*range function*/
 function frange($start, $end){
     $num_array = range($start,$end);
-print_r($num_array);
-
+    foreach($num_array as $num){
+        echo $num."<br>"
+    }
 }
 /*array sum function*/
 
