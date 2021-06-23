@@ -16,7 +16,7 @@ $sum=0;
     return $sum;   
 }
 
-frange(1,2,3,4);
+frange(1,2);
 echo "<br>";
 echo sum_array(1,2,3,4);
 
