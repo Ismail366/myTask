@@ -1,8 +1,8 @@
 <?php
-function range($start, $end){
-    for($i=$start;$i<=$end;$i++){
-        echo $i;
-    }
+function Range($start, $end){
+    $num_array = range($start,$end);
+print_r($num_array);
+
 }
 function sum_array($numbers){
     $num_array = array($numbers);
