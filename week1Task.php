@@ -5,6 +5,7 @@ function frange($start, $end){
 print_r($num_array);
 
 }
+/*array sum function*/
 function sum_array($numbers){
     $num_array = array($numbers);
     $sum = 0;
