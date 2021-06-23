@@ -14,6 +14,8 @@ function sum_array($numbers){
     }
     return $sum;
 }
-
+range(1,2,3,4);
+echo "<br>";
+echo sum_array(1,2,3,4);
 
 ?>
