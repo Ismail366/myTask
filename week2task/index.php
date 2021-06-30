@@ -22,7 +22,7 @@ session_start();
       <br>
       Password:<input type="password" name="password"placeholder="set a password"required>
       <br>
-      <input type= "submit" name = "submit"value ="register">
+      <input type= "submit" name = "submit"value ="Register">
       <br>
       <hr>
   </form>
