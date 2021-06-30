@@ -11,7 +11,7 @@ session_start();
     <title></title>
 </head>
 <body>
-  <form action="index.php" method="POST">
+  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
       <h1>Registration Form</h1>
       <br>
       Firt Name:<input type="text"name="fname"placeholder="Enter your First Name"required>
