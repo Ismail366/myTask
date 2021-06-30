@@ -10,7 +10,7 @@ session_start();
     session_start();
     ?>
     <body>
-        <form action ="login.php" method="POST">
+        <form action ="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
             Email:<input type ="email" name ="email"placeholder="Enter your email address"required>
             <br>
             Password:<input type="password"name="password"placeholder="Enter your password"required>
