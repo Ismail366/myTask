@@ -22,7 +22,7 @@ session_start();
         <?php
         if(isset($_POST["submit"])){
             if($_POST["email"] == $_SESSION["email"] && $_POST["password"] == $_SESSION["password"]){
-                echo "Welcome";
+                echo "Login Successfull!";
                 echo "<br>";
                 echo "<button><a href= 'user.php'>Go to user page</a></button>";
             } else{
